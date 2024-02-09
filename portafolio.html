@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+
+    <!-- Se cambia el title de Document a Portafolio -->
+    <!-- Estilo para la tabla -->
+    <style>
+      table {
+        border: 1px solid #6b8e23;
+        width: 95%;
+        height: 95%;
+        border-collapse: collapse;
+        margin-top: 10px;
+        margin-left: 10px;
+        table-layout: fixed;
+      }
+    </style>
+    <!-- Estilo para th y td -->
+    <style>
+      th,
+      td {
+        border: 1px solid #6b8e23;
+        border-collapse: collapse;
+        text-align: left;
+        padding: 5px;
+        vertical-align: top;
+      }
+    </style>
+    <!-- Estilo para el caption -->
+    <style>
+      caption {
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Enlace funcional a index se busca con ctrl espacio -->
+    <a href="index.html">Volver a inicio</a>
+
+    <!-- Tabla con los proyectos, primera columna con nombres de proyectos y en la 2da columna descripción de los proyectos -->
+    <table>
+      <caption>
+        <!-- Título descriptivo a la tabla -->
+        Tabla de Proyectos
+      </caption>
+
+      <thead>
+        <!-- Para agrupar contenido de los encabezados de la tabla -->
+        <tr>
+          <!-- Comienza una fila -->
+          <th>Nombres Proyectos</th>
+          <!-- th Elemento de la cabecera -->
+          <th>Screenshot Proyectos</th>
+        </tr>
+        <!-- Termina la fila -->
+      </thead>
+
+      <tbody>
+        <!-- Para especificar el cuerpo de la tabla -->
+        <tr>
+          <!-- Comienza otra fila -->
+          <td>Curriculum</td>
+          <!-- td Elemento de  la fila -->
+          <td>
+            <img
+              src="assets/imgs/cvcarolina.jpg"
+              alt="curriculum completo"
+              width="600"
+              height="380"
+            />
+          </td>
+        </tr>
+        <!-- Termina la fila -->
+
+        <tr>
+          <!-- Comienza otra fila -->
+          <td>Proyecto2</td>
+          <td></td>
+        </tr>
+        <!-- Termina la fila -->
+
+        <tr>
+          <!-- Comienza otra fila -->
+          <td>Proyecto3</td>
+          <td></td>
+        </tr>
+        <!-- Termina la fila -->
+      </tbody>
+    </table>
+  </body>
+</html>
